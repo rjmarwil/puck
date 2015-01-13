@@ -2,14 +2,13 @@
 Very small HTML5 template for very small HTML5 sites.
 
 ## Style
-* Uses [Semantic UI CSS](http://semantic-ui.com/element.html)
 * Add custom CSS to app.css
 
 ## Scripts
-* Add custom JavaScript in app.css
+* Add custom JavaScript in app.js
 
 ## Data
-* Add mock data in data.json. Using Json with Ajax requires this
+* Add mock data in data.json. Using JSON with Ajax requires this
 site to be on a server. See the `Server` section to spin this up.
 
 ## Server
