@@ -2,10 +2,10 @@
 Very small HTML5 template for very small HTML5 sites with ES6 & Sass support.
 
 ## Style
-* Add custom CSS to `src/sass/``
+* Add custom CSS to `src/sass/`
 
 ## Scripts
-* Add custom JavaScript in `src/js/``
+* Add custom JavaScript in `src/js/`
 
 ## Server
 1. In the terminal, `cd` into the puck directory
