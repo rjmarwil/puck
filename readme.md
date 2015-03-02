@@ -1,21 +1,16 @@
 # Puck
-Very small HTML5 template for very small HTML5 sites.
+Very small HTML5 template for very small HTML5 sites with ES6 & Sass support.
 
 ## Style
-* Uses [Semantic UI CSS](http://semantic-ui.com/element.html)
-* Add custom CSS to app.css
+* Add custom CSS to `src/sass/``
 
 ## Scripts
-* Add custom JavaScript in app.css
-
-## Data
-* Add mock data in data.json. Using Json with Ajax requires this
-site to be on a server. See the `Server` section to spin this up.
+* Add custom JavaScript in `src/js/``
 
 ## Server
 1. In the terminal, `cd` into the puck directory
-1. Run `python -m SimpleHTTPServer` to start a server
-1. Visit localhost:8000 to see the index page
+1. Run `npm run watch` to start a server and build assets.
+1. Visit localhost:8000 to see it in action.
 
 > If we shadows have offended,  
 > Think but this, and all is mended,  
