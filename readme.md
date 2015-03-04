@@ -1,5 +1,5 @@
 # Puck
-Very small HTML5 template for very small HTML5 sites.
+Very small template for very small apps.
 
 Template inclues:
 ____
