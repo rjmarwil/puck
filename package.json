@@ -6,9 +6,9 @@
   "scripts": {
     "sass": "node-sass src/sass/*.scss -o dist/ -w",
     "serve": "http-server",
-    "babel": "babel src/js/*.js -o dist/app.js -w",
     "reload": "livereload . -i 200",
-    "watch": "npm run reload & npm run sass & npm run babel & npm run serve"
+    "webpack": "webpack src/js/*.js dist/js/bundle.js -w",
+    "watch": "npm run reload & npm run sass & npm run webpack & npm run serve"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,11 @@
   "homepage": "https://github.com/gSchool/puck",
   "devDependencies": {
     "babel": "^4.6.6",
+    "babel-core": "^4.7.12",
+    "babel-loader": "^4.1.0",
     "http-server": "^0.7.5",
     "livereload": "^0.3.6",
-    "node-sass": "^2.0.1"
+    "node-sass": "^2.0.1",
+    "webpack": "^1.7.3"
   }
 }

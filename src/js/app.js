@@ -1,1 +1,3 @@
-setTimeout(()=>{ console.log('It works.'); }, 1000);
+import foo from './foo.js';
+
+console.log(foo);
